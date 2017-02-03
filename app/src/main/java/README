@@ -1,0 +1,29 @@
+Inclass-Activity-01
+
+Inclass Activity covering the second half of Chapter 7, Building Blocks
+
+Instructions:
+
+This in-class activity will have you playing around with a few of the Building block items covered
+in Chapter 7 of the text. Create an Andoid project with API Level 24 (or higher) named
+Inclass-Activity-01-<LastName>. Create a README.md file and screenshots directory.
+Commit/push to GitHub.
+
+Create a branch '01-Calendar' (In Android Studio: VCS -> Git -> branches -> +New Branch).
+Create a DatePicker object as seen on pgs 166-168 and have the choice of date and time displayed
+    on the bottom of the scren.
+Take a screenshot and place into screenshots directory.
+Commit and push branch '01-Calendar'
+Create a branch '02-ProgressBar'
+Create a ProgressBar object as seen on pgs 168-169.
+Set and display progress to 75.
+Place a RatingBar object below the ProgressBar as seen on p. 175 in the text.
+Take a screenshot and place into screenshot directory.
+Commit and push branch '02-ProgressBar'
+
+NOTE:
+There should be three branches in GitHub when you are complete. Branching is an important concept
+that is worth the time to learn. You have seen several demos of my branches and how easy it is to
+preserve the state of the source code and easy it is to navigate between branches. Get active on
+Piazza if you do not understand the branching part. Remember, you can also do all this on the
+command line that is available in Android Studio.
