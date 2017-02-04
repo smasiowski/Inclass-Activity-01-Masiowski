@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.DatePicker;
 import android.widget.TextView;
+import android.widget.ProgressBar;
 import android.widget.TimePicker;
 
 import java.util.Calendar;
@@ -12,6 +13,10 @@ import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
+    ProgressBar mProgress;
+    TextView text;
+    DatePicker date;
+    TimePicker time;
 
 
     @Override
@@ -22,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         assert getSupportActionBar() != null;
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         final TextView text = (TextView) findViewById(R.id.textView);
         final DatePicker date = (DatePicker) findViewById(R.id.DatePicker01);
@@ -47,5 +53,8 @@ public class MainActivity extends AppCompatActivity {
                         text.setText(calendar.getTime().toString());
                     }
                 });
+
+        mProgress = (ProgressBar) findViewById(R.id.progress_bar);
+        mProgress.setProgress(75);
     }
 }
